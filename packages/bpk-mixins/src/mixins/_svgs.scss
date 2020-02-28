@@ -221,8 +221,8 @@
 ///   }
 
 @mixin bpk-spinner($spinner: '') {
-  width: $bpk-spacing-md;
-  height: $bpk-spacing-md;
+  width: $bpk-spacing-sm;
+  height: $bpk-spacing-sm;
   animation: bpk-keyframe-spin 600ms linear infinite;
 
   @if $spinner != '' {
@@ -244,8 +244,8 @@
 ///   }
 
 @mixin bpk-spinner--lg() {
-  width: $bpk-spacing-base;
-  height: $bpk-spacing-base;
+  width: $bpk-spacing-md;
+  height: $bpk-spacing-md;
 }
 
 /// Extra large spinner. Modifies the bpk-spinner mixin.
@@ -259,8 +259,8 @@
 ///   }
 
 @mixin bpk-spinner--xl() {
-  width: $bpk-spacing-xl;
-  height: $bpk-spacing-xl;
+  width: $bpk-spacing-base;
+  height: $bpk-spacing-base;
 }
 
 /// Align spinner to button. Modifies the bpk-spinner mixin.
