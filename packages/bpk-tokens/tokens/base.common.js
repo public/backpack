@@ -272,7 +272,7 @@ module.exports = {
   horizontalNavLinkColor: "rgb(104, 105, 127)",
   horizontalNavLinkHoverColor: "rgb(68, 69, 96)",
   horizontalNavLinkSelectedColor: "rgb(7, 112, 227)",
-  iconSizeLg: "2rem",
+  iconSizeLg: "1.5rem",
   iconSizeSm: "1rem",
   inputBackground: "#ffffff",
   inputBorder: "solid .0625rem #B2B2BF",
